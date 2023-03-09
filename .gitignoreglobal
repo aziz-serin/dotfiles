@@ -1,0 +1,33 @@
+# Ignore IDE configs
+.vscode/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.fleet/
+#Ignore OS generated files
+.DS_Store
+#Ignore DB
+*.db
+#Ignore for python
+.pyc
+venv
+.env
+__pycache__/
+*.py[cod]
+.cache
+#Ignore for node
+node_modules
+#Ignore for java
+*.class
+target/
+# Log file
+*.log
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar

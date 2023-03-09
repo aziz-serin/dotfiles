@@ -1,0 +1,16 @@
+[user]
+        name = Aziz Serin
+        email = azizserin313@yahoo.com
+[color]
+        ui = true
+        status = auto
+        branch = auto
+[core]
+        editor = vim
+        autocrlf = input
+        excludesfile = /Users/azizserin/.gitignore
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
